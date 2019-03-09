@@ -1,0 +1,442 @@
+[
+  {
+    "termkod": "01001",
+    "beskrivning": "Personnummer"
+  },
+  {
+    "termkod": "01002",
+    "beskrivning": "Tilldelat personnummer/Samordningsnummer"
+  },
+  {
+    "termkod": "01003",
+    "beskrivning": "Sekretessmarkering"
+  },
+  {
+    "termkod": "01004",
+    "beskrivning": "Ärendetyp"
+  },
+  {
+    "termkod": "01005",
+    "beskrivning": "Hänvisningspersonnummer/Samordningsnummer"
+  },
+  {
+    "termkod": "01006",
+    "beskrivning": "Avregistreringsorsak, kod"
+  },
+  {
+    "termkod": "01007",
+    "beskrivning": "Datum för avregistrering"
+  },
+  {
+    "termkod": "01008",
+    "beskrivning": "Indikation att totalpost aviseras"
+  },
+  {
+    "termkod": "01010",
+    "beskrivning": "Födelsedatum "
+  },
+  {
+    "termkod": "01011",
+    "beskrivning": "Tilltalsnamnsmarkering, kod"
+  },
+  {
+    "termkod": "01012",
+    "beskrivning": "Förnamn "
+  },
+  {
+    "termkod": "01013",
+    "beskrivning": "Mellannamn "
+  },
+  {
+    "termkod": "01014",
+    "beskrivning": "Efternamn "
+  },
+  {
+    "termkod": "01015",
+    "beskrivning": "Aviseringsnamn "
+  },
+  {
+    "termkod": "01019",
+    "beskrivning": "Datum för anträffad död"
+  },
+  {
+    "termkod": "01020",
+    "beskrivning": "Skyddad folkbokföring"
+  },
+  {
+    "termkod": "01021",
+    "beskrivning": "Datum, folkbokföring"
+  },
+  {
+    "termkod": "01022",
+    "beskrivning": "Län, folkbokföring, kod, flyttsignal (om kunden valt detta för sekretessmarkerade personer)"
+  },
+  {
+    "termkod": "01023",
+    "beskrivning": "Kommun, folkbokföring, kod"
+  },
+  {
+    "termkod": "01024",
+    "beskrivning": "Församling, folkbokföring, kod"
+  },
+  {
+    "termkod": "01025",
+    "beskrivning": "Fastighetsbeteckning, folkbokföring"
+  },
+  {
+    "termkod": "01028",
+    "beskrivning": "Fiktivt nummer"
+  },
+  {
+    "termkod": "01029",
+    "beskrivning": "Distriktskod"
+  },
+  {
+    "termkod": "01031",
+    "beskrivning": "c/o adress, folkbokföringsadress"
+  },
+  {
+    "termkod": "01032",
+    "beskrivning": "Utdelningsadress 1, folkbokföringsadress"
+  },
+  {
+    "termkod": "01033",
+    "beskrivning": "Utdelningsadress 2, folkbokföringsadress"
+  },
+  {
+    "termkod": "01034",
+    "beskrivning": "Postnummer, folkbokföringsadress"
+  },
+  {
+    "termkod": "01035",
+    "beskrivning": "Postort, folkbokföringsadress"
+  },
+  {
+    "termkod": "01045",
+    "beskrivning": "Riksnyckel för fastighet"
+  },
+  {
+    "termkod": "01046",
+    "beskrivning": "Riksnyckel för adressplats"
+  },
+  {
+    "termkod": "01047",
+    "beskrivning": "Riksnyckel för lägenhet"
+  },
+  {
+    "termkod": "01051",
+    "beskrivning": "c/o adress för särskild postadress; adress för person med samordningsnummer"
+  },
+  {
+    "termkod": "01052",
+    "beskrivning": "Utdelningsadress 1 för särskild postadress; adress för person med samordningsnummer"
+  },
+  {
+    "termkod": "01053",
+    "beskrivning": "Utdelningsadress 2 för särskild postadress; adress för person med samordningsnummer"
+  },
+  {
+    "termkod": "01054",
+    "beskrivning": "Postnummer för särskild postadress; adress för person med samordningsnummer"
+  },
+  {
+    "termkod": "01055",
+    "beskrivning": "Postort för särskild postadress; adress för person med samordningsnummer"
+  },
+  {
+    "termkod": "01071",
+    "beskrivning": "Utdelningsadress 1 för utlandsadress"
+  },
+  {
+    "termkod": "01072",
+    "beskrivning": "Utdelningsadress 2 för utlandsadress"
+  },
+  {
+    "termkod": "01073",
+    "beskrivning": "Utdelningsadress 3 för utlandsadress"
+  },
+  {
+    "termkod": "01077",
+    "beskrivning": "Land för utlandsadress"
+  },
+  {
+    "termkod": "01078",
+    "beskrivning": "Datum för utlandsadress"
+  },
+  {
+    "termkod": "01079",
+    "beskrivning": "Datum för rösträtt"
+  },
+  {
+    "termkod": "01081",
+    "beskrivning": "Civilstånd, kod"
+  },
+  {
+    "termkod": "01082",
+    "beskrivning": "Civilståndsdatum"
+  },
+  {
+    "termkod": "01091",
+    "beskrivning": "Födelselän, kod"
+  },
+  {
+    "termkod": "01092",
+    "beskrivning": "Födelsehemort"
+  },
+  {
+    "termkod": "01093",
+    "beskrivning": "Födelseort i utlandet"
+  },
+  {
+    "termkod": "01094",
+    "beskrivning": "Födelseland"
+  },
+  {
+    "termkod": "01101",
+    "beskrivning": "Invandringsdatum"
+  },
+  {
+    "termkod": "01104",
+    "beskrivning": "Uppehållsrätt"
+  },
+  {
+    "termkod": "01105",
+    "beskrivning": "Nordiskt personnummer Danmark"
+  },
+  {
+    "termkod": "01106",
+    "beskrivning": "Nordiskt personnummer Finland"
+  },
+  {
+    "termkod": "01107",
+    "beskrivning": "Nordiskt personnummer Färöarna"
+  },
+  {
+    "termkod": "01108",
+    "beskrivning": "Nordiskt personnummer Island"
+  },
+  {
+    "termkod": "01109",
+    "beskrivning": "Nordiskt personnummer Norge"
+  },
+  {
+    "termkod": "01212",
+    "beskrivning": "Uppgift om förnamn styrkt"
+  },
+  {
+    "termkod": "01213",
+    "beskrivning": "Uppgift om mellannamn styrkt"
+  },
+  {
+    "termkod": "01214",
+    "beskrivning": "Uppgift om efternamn styrkt"
+  },
+  {
+    "termkod": "01293",
+    "beskrivning": "Uppgift om födelseort i utlandet styrkt"
+  },
+  {
+    "termkod": "02000",
+    "beskrivning": "Start av uppgifter om en relationsperson till huvudpersonen"
+  },
+  {
+    "termkod": "02001",
+    "beskrivning": "Personnummer, folkbokförd relationsperson"
+  },
+  {
+    "termkod": "02002",
+    "beskrivning": "Födelsetid, aldrig folkbokförd relationsperson"
+  },
+  {
+    "termkod": "02003",
+    "beskrivning": "Typ av relation, kod"
+  },
+  {
+    "termkod": "02004",
+    "beskrivning": "Vårdnadsdatum för vårdnadsrelation"
+  },
+  {
+    "termkod": "02005",
+    "beskrivning": "Förnamn för aldrig folkbokförd relationsperson"
+  },
+  {
+    "termkod": "02006",
+    "beskrivning": "Mellannamn för aldrig folkbokförd relationsperson"
+  },
+  {
+    "termkod": "02007",
+    "beskrivning": "Efternamn för aldrig folkbokförd relationsperson"
+  },
+  {
+    "termkod": "02008",
+    "beskrivning": "Status på relation, kod"
+  },
+  {
+    "termkod": "02009",
+    "beskrivning": "Datum för avslutad vårdnad"
+  },
+  {
+    "termkod": "02010",
+    "beskrivning": "Avregistreringsorsak för relationsperson"
+  },
+  {
+    "termkod": "02011",
+    "beskrivning": "Avregistreringsdatum för relationsperson"
+  },
+  {
+    "termkod": "02999",
+    "beskrivning": "Slut på uppgifter om en relationsperson till huvudpersonen"
+  },
+  {
+    "termkod": "03000",
+    "beskrivning": "Start av uppgifter om ett medborgarskap"
+  },
+  {
+    "termkod": "03001",
+    "beskrivning": "Medborgarskap, kod"
+  },
+  {
+    "termkod": "03002",
+    "beskrivning": "Medborgarskapsdatum"
+  },
+  {
+    "termkod": "03003",
+    "beskrivning": "Status på medborgarskap, kod"
+  },
+  {
+    "termkod": "03201",
+    "beskrivning": "Uppgift om medborgarskap styrkt"
+  },
+  {
+    "termkod": "03999",
+    "beskrivning": "Slut på uppgifter om ett medborgarskap"
+  },
+  {
+    "termkod": "04000",
+    "beskrivning": "Start av uppgifter om historik (tidigare folkbokföring)"
+  },
+  {
+    "termkod": "04001",
+    "beskrivning": "Folkbokföringsdatum, historik"
+  },
+  {
+    "termkod": "04002",
+    "beskrivning": "Län, historik, kod"
+  },
+  {
+    "termkod": "04003",
+    "beskrivning": "Kommun, historik, kod"
+  },
+  {
+    "termkod": "04004",
+    "beskrivning": "Församling, historik, kod"
+  },
+  {
+    "termkod": "04005",
+    "beskrivning": "Fastighetsbeteckning, historik"
+  },
+  {
+    "termkod": "04008",
+    "beskrivning": "Folkbokföringstyp, kod "
+  },
+  {
+    "termkod": "04999",
+    "beskrivning": "Slut på uppgifter om historik"
+  },
+  {
+    "termkod": "05001",
+    "beskrivning": "Invandringsland, kod"
+  },
+  {
+    "termkod": "05002",
+    "beskrivning": "Utvandringsland, kod"
+  },
+  {
+    "termkod": "05003",
+    "beskrivning": "Beslutsgrund för personer med tilldelat personnummer/Samordningsnummer"
+  },
+  {
+    "termkod": "05004",
+    "beskrivning": "Ingivarenamn vid dödsfall"
+  },
+  {
+    "termkod": "05005",
+    "beskrivning": "Avregistrerad som försvunnen"
+  },
+  {
+    "termkod": "05006",
+    "beskrivning": "Ort i Norden varifrån invandring skett"
+  },
+  {
+    "termkod": "06000",
+    "beskrivning": "Start av uppgifter om en relationsperson till huvudperson, särlösningsuppgifter"
+  },
+  {
+    "termkod": "06001",
+    "beskrivning": "Personnummer, folkbokförd relationsperson"
+  },
+  {
+    "termkod": "06002",
+    "beskrivning": "Födelsetid, aldrig folkbokförd relationsperson"
+  },
+  {
+    "termkod": "06003",
+    "beskrivning": "Kön, dödfött barn"
+  },
+  {
+    "termkod": "06004",
+    "beskrivning": "Typ av relation, kod"
+  },
+  {
+    "termkod": "06005",
+    "beskrivning": "From-datum för relation"
+  },
+  {
+    "termkod": "06006",
+    "beskrivning": "Förnamn, aldrig folkbokförd relationsperson"
+  },
+  {
+    "termkod": "06007",
+    "beskrivning": "Mellannamn, aldrig folkbokförd relationsperson"
+  },
+  {
+    "termkod": "06008",
+    "beskrivning": "Efternamn, aldrig folkbokförd relationsperson"
+  },
+  {
+    "termkod": "06009",
+    "beskrivning": "Antal barn per börd "
+  },
+  {
+    "termkod": "06010",
+    "beskrivning": "Personnummer/födelsetid för fader till dödfött barn"
+  },
+  {
+    "termkod": "06011",
+    "beskrivning": "Status på relation"
+  },
+  {
+    "termkod": "06999",
+    "beskrivning": "Slut på uppgifter om en relationsperson, särlösningsuppgift"
+  },
+  {
+    "termkod": "07001",
+    "beskrivning": "c/o adress, föregående folkbokföringsadress"
+  },
+  {
+    "termkod": "07002",
+    "beskrivning": "Utdelningsadress 1, föregående folkbokföringsadress"
+  },
+  {
+    "termkod": "07003",
+    "beskrivning": "Utdelningsadress 2, föregående folkbokföringsadress"
+  },
+  {
+    "termkod": "07004",
+    "beskrivning": "Postnummer, föregående folkbokföringsadress"
+  },
+  {
+    "termkod": "07005",
+    "beskrivning": "Postort, föregående folkbokföringsadress"
+  }
+]
