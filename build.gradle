@@ -1,26 +1,61 @@
 plugins {
     id 'java'
 }
+plugins {
+    id 'antlr'
+}
+plugins {
+    id 'idea'
+}
 
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 group = 'se.navet.xml2up'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.2-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
+sourceSets {
+    generated {
+        java {
+            srcDirs 'generated-src/antlr/main/'
+        }
+    }
+}
+
 dependencies {
-    compile group: 'org.antlr', name: 'antlr4-runtime', version: '4.7.2'
-    testCompile(
-            'org.junit.jupiter:junit-jupiter-params:5.4.0'
-    )
-    testCompile("org.junit.jupiter:junit-jupiter-api:5.4.0")
-    testRuntime("org.junit.jupiter:junit-jupiter-engine:5.4.0")
-    testRuntime("org.junit.platform:junit-platform-launcher:1.4.0")
-    testRuntime("org.junit.vintage:junit-vintage-engine:5.4.0")
+    antlr 'org.antlr:antlr4:4.7.2'
+    compile 'org.antlr:antlr4-runtime:4.7.2'
+    testCompile('org.junit.jupiter:junit-jupiter-params:5.4.0')
+    testCompile('org.junit.jupiter:junit-jupiter-api:5.4.0')
+    testRuntime('org.junit.jupiter:junit-jupiter-engine:5.4.0')
+    testRuntime('org.junit.platform:junit-platform-launcher:1.4.0')
+    testRuntime('org.junit.vintage:junit-vintage-engine:5.4.0')
+    //compile sourceSets.generated.output
 }
 test {
     useJUnitPlatform()
 }
+
+generateGrammarSource {
+    maxHeapSize = '128m'
+    final PARSER_PACKAGE_NAME = 'me.tomassetti.examples.MarkupParser'
+    arguments += ['-visitor', '-package', PARSER_PACKAGE_NAME, '-Xexact-output-dir']
+    outputDirectory = new File("generated-src/antlr/main/${PARSER_PACKAGE_NAME.replace('.', '/')}")
+}
+compileJava.dependsOn generateGrammarSource
+
+
+clean {
+    delete 'generated-src'
+}
+
+idea {
+    module {
+        generatedSourceDirs += file('generated-src/antlr/main/')
+    }
+}
+
+compileJava.source sourceSets.generated.java, sourceSets.main.java
